@@ -2,16 +2,17 @@
 @import 'vfonts/Lato.css';
 
 :root {
-    --font-family-base: 'v-sans', system-ui, sans-serif;
-    --color-bg: #ffffff;
-    --color-text: #000000;
+  --font-family-base: 'v-sans', system-ui, sans-serif;
+  --color-bg: #ffffff;
+  --color-text: #000000;
 }
 
-html, body {
-    font-family: var(--font-family-base);
-    background: var(--color-bg);
-    color: var(--color-text);
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+html,
+body {
+  font-family: var(--font-family-base);
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
