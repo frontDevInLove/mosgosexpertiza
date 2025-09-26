@@ -1,6 +1,6 @@
 import { ref, reactive, onMounted, h } from 'vue'
 import type { DataTableColumns } from 'naive-ui'
-import type { SteRow } from '@/shared/types/ste'
+import type { SteRow } from '@/components/ste-table/types/ste'
 import { round2, toNum } from '@/shared/utils/number'
 import { formatDate } from '@/shared/utils/date'
 import SteCellSwitch from '@/components/ste-table/components/SteCellSwitch.vue'
